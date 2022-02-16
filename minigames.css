@@ -1,0 +1,117 @@
+footer {
+    height: 48px;
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--quaternary--grey);
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 48px);
+    background-color: var(--tertiary--grey);
+}
+
+.minigames {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 8px;
+    list-style: none;
+    background-color: var(--secondary--grey);
+}
+
+.minigames--game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    min-height: 200px;
+    height: fit-content;
+    margin: 8px;
+    padding: 25px 25px 10px;
+    border: 4px solid black;
+    border-radius: 16px;
+    background-color: var(--yellow);
+}
+
+.game--iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 375px;
+    width: 375px;
+}
+
+.minigames--game--preview {
+    width: 100px;
+    height: 100px;
+}
+
+.minigames--game--preview img {
+    width: 100%;
+    height: 100%;
+}
+
+.minigames--game--name {
+    margin: auto 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pc-only {
+    display: none;
+}
+
+.social {
+    width: fit-content;
+}
+
+.social ul {
+    height: 48px;
+    width: 375px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social--item {
+    display: flex;
+    align-items: center;
+}
+
+.social--item span{
+    display: block;
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#instagram span {
+    background-image: url("https://www.iconheaven.com/download/17/png/instagram_logo_png256.png");
+}
+
+#twitter span {
+    background-image: url("https://www.lifepng.com/wp-content/uploads/2020/11/Circle-Twitter-Icon-png-hd.png");
+}
+
+#github span {
+    border-radius: 50%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+    background-color: white;
+}
+
+.social--item a {
+    text-decoration: none;
+    color: var(--white);
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="12"
+   height="12"
+   viewBox="0 0 12 12"
+   fill="#e0e0e0"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="arrow-right.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23" />
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="12px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="47.611857"
+     inkscape:cx="6.7105134"
+     inkscape:cy="7.6661577"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19">
+    <sodipodi:guide
+       position="5.9859039,5.9930929"
+       orientation="0,-1"
+       id="guide107" />
+    <sodipodi:guide
+       position="5.9859039,5.9930929"
+       orientation="1,0"
+       id="guide109" />
+  </sodipodi:namedview>
+  <path
+     d="M 2.0000012,10.59 6.9446714,6.0000001 2.0000001,1.4099999 3.5222717,-1.1875e-7 9.9999998,6.0000001 3.5222717,12 Z"
+     fill="#e0e0e0"
+     id="path17"
+     style="stroke-width:1.03905" />
+</svg>

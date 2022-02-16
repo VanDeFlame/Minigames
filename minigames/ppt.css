@@ -1,0 +1,68 @@
+/* PIEDRA PAPEL TIJERA */
+.ppt {
+    padding: 40px 0;
+}
+
+.ppt div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ppt--button, .ppt--battle--select {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--secondary--grey);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ppt--button:hover {
+    background-color: var(--primary--grey);
+}
+
+.ppt--battle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.ppt--battle--vs {
+    margin: 0 16px;
+    font-size: 5rem;
+    color: var(--white);
+}
+
+.ppt__piedra {
+    background-image: url("https://images.vexels.com/media/users/3/145827/isolated/lists/357f06ecbaaa77d750259c459c0ed55f-round-rock-illustration.png");
+    background-size: 75%;
+}
+
+.ppt__papel {
+    background-image: url("http://images.clipartpanda.com/stack-of-paper-png-Stack-of-paper-1128095944.png");
+    background-size: 70%;
+}
+
+.ppt__tijera {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F1%2FCartoon-Scissor-PNG.png&f=1&nofb=1");
+    background-size: 65%;
+}
+
+.ppt__win {
+    background-color: var(--win);
+}
+
+.ppt__lose {
+    background-color: var(--lose);
+}
+
+.ppt__draw {
+    background-color: var(--draw);
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary--grey: #252525;
+    --secondary--grey: #333333;
+    --tertiary--grey: #424242;
+    --quaternary--grey: #5c5c5c;
+    --quintenary--grey: #8a8a8a;
+    --blue: rgb(30, 71, 112);
+    --yellow: rgb(255, 201, 14);
+    --white: #e0e0e0;
+    --win: rgb(7, 201, 7);
+    --lose: rgb(201, 7, 7);
+    --draw: rgb(161, 161, 161);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.game-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}

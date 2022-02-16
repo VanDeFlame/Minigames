@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.game--iframe {
+    height: 500px;
+    width: 500px;
+}
+
+.game-container {
+    width: 70vw;
+}
+
+.minigames {
+    height: calc(100vh - 48px);
+    width: 30vw;
+    overflow-y: auto;
+}
+
+.pc-only {
+    display: flex;
+}

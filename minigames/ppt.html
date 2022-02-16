@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="ppt.css">
+    <title>Piedra Papel Tijera</title>
+</head>
+<body class="game-body">
+    <div class="ppt">
+        <div class="ppt--battle">
+            <span class="ppt--battle--select" id="ppt--battle__player"></span>
+            <h3 class="ppt--battle--vs">VS</h3>
+            <span class="ppt--battle--select" id="ppt--battle__bot"></span>
+        </div>
+        <div>
+            <button onclick="{jugar(0)}" class="ppt--button ppt__piedra"></button>
+            <button onclick="{jugar(1)}" class="ppt--button ppt__papel"></button>
+            <button onclick="{jugar(2)}" class="ppt--button ppt__tijera"></button>
+        </div>
+    </div>
+    <script src="ppt.js"></script>
+</body>
+</html>

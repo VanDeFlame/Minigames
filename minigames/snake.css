@@ -1,0 +1,99 @@
+/* SNAKE */
+.snake {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px var(--size) 50px;
+    grid-template-rows: 50px var(--size) 50px;
+}
+
+.snake--button {
+    border: none;
+    fill: var(--white);
+    background-color: var(--tertiary--grey);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+}
+
+.snake--button[class="snake--button button__up"] {
+    background-image: url("../assets/icons/arrow-up.svg");
+}
+
+.snake--button[class="snake--button button__left"] {
+    background-image: url("../assets/icons/arrow-left.svg");
+}
+
+.snake--button[class="snake--button button__down"] {
+    background-image: url("../assets/icons/arrow-down.svg");
+}
+
+.snake--button[class="snake--button button__right"] {
+    background-image: url("../assets/icons/arrow-right.svg");
+}
+
+.snake--msg {
+    position: absolute;
+    display: flex;
+    width: calc(var(--size) + 100px);
+    height: calc(var(--size) + 100px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--white);
+    background-color: rgba(161, 161, 161, 0.75)
+}
+
+.snake--msg[class="snake--msg hidden"] {
+    display: none;
+}
+
+.snake--msg[class="snake--msg win"] {
+    display: flex;
+    background-color: rgba(7, 201, 7, 0.75);
+}
+
+.snake--msg[class="snake--msg lose"] {
+    display: flex;
+    background-color: rgba(201, 7, 7, 0.75);
+}
+
+.snake--board {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--tertiary--grey);
+}
+
+.snake--cell {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--secondary--grey);
+}
+
+.snake--cell[class="snake--cell snake__head"] {
+    background-color: rgb(19, 209, 19);
+    border: 1px solid #046504;
+}
+
+.snake--cell[class="snake--cell snake"] {
+    background-color: green;
+    border: 1px solid #046504;
+}
+
+/* .snake--cell[class="snake--cell snake__tail"] {
+    background-color: rgb(79, 128, 0);
+} */
+
+.snake--cell[class="snake--cell meat"] {
+    background-color: crimson;
+    border: 1px solid rgb(143, 3, 31);
+}
+
+br {
+    width: 0;
+    height: 0;
+}

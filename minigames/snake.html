@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="snake.css">
+    <title>Snake</title>
+</head>
+<body class="game-body">
+    <div class="snake">
+        <br><button onclick="movSnake(8)" class="snake--button button__up"></button><br>
+        <button onclick="movSnake(4)" class="snake--button button__left"></button>
+        <div class="snake--board" id="snake--board"></div>
+        <button onclick="movSnake(6)" class="snake--button button__right"></button><br>
+        <button onclick="movSnake(2)" class="snake--button button__down"></button><br>
+        <span onclick="start()" class="snake--msg" id="snake--msg">CLICK PARA<br>COMENZAR</span>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>

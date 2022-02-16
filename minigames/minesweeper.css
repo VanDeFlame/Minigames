@@ -1,0 +1,133 @@
+.minesweeper {
+    position: relative;
+    display: grid;
+    grid-template-rows: 35px var(--size);
+    grid-template-columns: var(--size);
+}
+
+.minesweeper--info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.minesweeper--flag-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/icons/flag.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#minesweeper--flags {
+    display: flex;
+    width: 54px;
+    height: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.minesweeper--button {
+    display: block;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary--grey);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--secondary--grey);
+}
+
+.minesweeper--button:hover {
+    background-color: var(--quaternary--grey);
+}
+
+.minesweeper--board {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--tertiary--grey);
+}
+
+.minesweeper--cell {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--tertiary--grey);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--secondary--grey);
+}
+
+.minesweeper--cell[data-status="flag"] {
+    background-image: url("../assets/icons/flag.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.minesweeper--cell[data-status="mine"], .minesweeper--cell[data-status="flag__correct"] {
+    fill: black;
+    background-color: var(--lose);
+    background-image: url("../assets/icons/mine.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.minesweeper--cell[data-status="flag__correct"] {
+    background-color: var(--win);
+}
+
+.minesweeper--cell[data-status="free"] {
+    background-color: var(--quintenary--grey);
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="1"] {
+    color: blue;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="2"] {
+    color: green;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="3"] {
+    color: red;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="4"] {
+    color: rgb(87, 0, 128);
+}
+
+.minesweeper--cell[data-status="free"][data-mines="5"] {
+    color: orange;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="6"] {
+    color: darkcyan;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="7"] {
+    color: deeppink;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="8"] {
+    color: gold;
+}
+
+.minesweeper--cell[data-status="free"][data-mines="0"] {
+    color: var(--quintenary--grey);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="minigames.css">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 700px)">
+    <title>Minigames</title>
+</head>
+<body>
+    <main>
+        <section class="game-container" id="game">
+            <iframe title="Juego no seleccionado" height="500px" width="500px" frameborder="0" class="game--iframe" id="game--iframe"></iframe>
+        </section>
+
+        <ul class="minigames">
+            <li onclick="changeGame('ppt')" class="minigames--game">
+                <figure class="minigames--game--preview">
+                    <img src="https://i.ibb.co/bggTK30/ppt.png" alt="Piedra, Papel, Tijera">
+                </figure>
+                <h3 class="minigames--game--name">
+                    Piedra, Papel, Tijera
+                </h3>
+            </li>
+
+            <li onclick="changeGame('tateti')" class="minigames--game">
+                <figure class="minigames--game--preview">
+                    <img src="https://i.ibb.co/Jcks36y/tateti.png" alt="TaTeTi">
+                </figure>
+                <h3 class="minigames--game--name">
+                    TaTeTi
+                </h3>
+            </li>
+
+            <li onclick="changeGame('snake')" class="minigames--game">
+                <figure class="minigames--game--preview">
+                    <img src="https://i.ibb.co/nmxFZ2Z/snake.png" alt="snake">
+                </figure>
+                <h3 class="minigames--game--name">
+                    Snake
+                </h3>
+            </li>
+
+            <li onclick="changeGame('minesweeper')" class="minigames--game pc-only">
+                <figure class="minigames--game--preview">
+                    <img src="https://i.ibb.co/ZdSfCtJ/minesweeper.png" alt="Buscaminas">
+                </figure>
+                <h3 class="minigames--game--name">
+                    Buscaminas
+                </h3>
+            </li>
+        </ul>
+    </main>
+    
+    <footer>
+        <nav class="social">
+            <ul>
+                <li class="social--item" id="instagram">
+                    <span></span>
+                    <a href="https://www.instagram.com/vandeflame/">Instagram</a>
+                </li>
+                <li class="social--item" id="twitter">
+                    <span></span>
+                    <a href="https://twitter.com/VanDeFlame">Twitter</a>
+                </li>
+                <li class="social--item" id="github">
+                    <span></span>
+                    <a href="https://github.com/VanDeFlame">GitHub</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="minigames.js"></script>
+</body>
+</html>
