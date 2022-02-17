@@ -2,8 +2,8 @@
 .snake {
     position: relative;
     display: grid;
-    grid-template-columns: 50px var(--size) 50px;
-    grid-template-rows: 50px var(--size) 50px;
+    grid-template-columns: 30px var(--size) 30px;
+    grid-template-rows: 30px var(--size) 30px;
 }
 
 .snake--button {
@@ -34,8 +34,8 @@
 .snake--msg {
     position: absolute;
     display: flex;
-    width: calc(var(--size) + 100px);
-    height: calc(var(--size) + 100px);
+    width: calc(var(--size) + 60px);
+    height: calc(var(--size) + 60px);
     justify-content: center;
     align-items: center;
     text-align: center;

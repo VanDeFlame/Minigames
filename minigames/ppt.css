@@ -10,8 +10,8 @@
 }
 
 .ppt--button, .ppt--battle--select {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 4px;
     border: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@
 }
 
 .ppt__papel {
-    background-image: url("http://images.clipartpanda.com/stack-of-paper-png-Stack-of-paper-1128095944.png");
+    background-image: url("https://pixy.org/download/1154941/");
     background-size: 70%;
 }
 

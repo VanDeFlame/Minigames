@@ -21,3 +21,11 @@ main {
 .pc-only {
     display: flex;
 }
+
+.social {
+    margin: 0 16px;
+}
+
+.social ul {
+    width: 400px;
+}
